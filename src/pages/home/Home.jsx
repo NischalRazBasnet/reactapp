@@ -1,15 +1,17 @@
 import React from 'react';
 import { NavLink, Outlet } from 'react-router';
+import Intro from './Intro';
+import Techno from './Techno';
+import Myinfo from './Myinfo';
 
 export default function Home() {
   return (
     <div>
-      <h1 className='text-4xl'>This is a homepage</h1>
-      <nav className='space-x-5'>
-        <NavLink to={'/'}>Page1</NavLink>
-        <NavLink to={'/page-2'}>Page2</NavLink>
-      </nav>
-      <Outlet />
+      <div>
+        <Intro />
+        <Techno />
+        <Myinfo />
+      </div>
     </div>
   );
 }

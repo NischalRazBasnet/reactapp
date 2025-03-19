@@ -6,6 +6,7 @@ import Contact from './pages/contact/Contact';
 import Page1 from './pages/home/nested-pages/Page1';
 import Page2 from './pages/home/nested-pages/Page2';
 import RootLayout from './components/RootLayout';
+import NotFound from './pages/NotFound';
 
 export default function App() {
   const router = createBrowserRouter([
@@ -14,11 +15,11 @@ export default function App() {
       element: <RootLayout />,
       children: [
         {
-          path: '/',
+          path: '',
           element: <Home />,
           children: [
             {
-              path: '/',
+              index: 'true',
               element: <Page1 />,
             },
             {
@@ -36,6 +37,10 @@ export default function App() {
           element: <Contact />,
         },
       ],
+    },
+    {
+      path: '*',
+      element: <NotFound />,
     },
   ]);
   return <RouterProvider router={router} />;
