@@ -1,1 +1,45 @@
 @import 'tailwindcss';
+
+@theme {
+  /* --color-*: initial; */
+  --color-primary: red;
+  --color-buttonColor: green;
+
+  --text-headLarge: 50px;
+  /* --text-xl: 50px; */
+
+  /* --breakpoint-sm: 500px; */
+
+  --animate-myAni: ani 2s ease-in infinite;
+
+  --my-grid: repeat(auto-fit, minmax(250px, 1fr));
+
+  --animate-wiggle: wiggle 1s ease-in-out infinite;
+  @keyframes wiggle {
+    0%,
+    100% {
+      transform: rotate(-5deg);
+    }
+    50% {
+      transform: rotate(5deg);
+    }
+  }
+}
+
+/* base layer , component layer utitlities */
+
+@layer base {
+  h2 {
+    @apply text-2xl font-bold;
+  }
+}
+
+@layer components {
+  .icons {
+    @apply h-[150px] w-[150px] hover:text-rose-500 hover:scale-110 transition-all;
+  }
+}
+
+@utility flex-center {
+  @apply flex justify-center items-center;
+}
