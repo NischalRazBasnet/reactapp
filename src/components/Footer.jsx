@@ -20,8 +20,8 @@ export default function Footer() {
         style={{ clipPath: 'polygon(0% 50%, 100% 0%, 100% 100%, 0% 100%)' }}
       ></div>
       <div className='absolute text-white inset-x-0 bottom-0 top-[50%] text-center flex flex-col items-center justify-center max-sm:bottom-10'>
-        <h2>Developed By</h2>
-        <h2 className='font-normal'>Some One Anonymous</h2>
+        <h3>Developed By</h3>
+        <h3 className='font-normal'>Some One Anonymous</h3>
       </div>
     </footer>
   );

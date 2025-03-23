@@ -31,8 +31,11 @@
   h2 {
     @apply text-2xl font-semibold max-sm:text-xl;
   }
+  h3 {
+    @apply text-xl font-semibold max-sm:text-lg;
+  }
   p {
-    @apply text-lg max-sm:text-xs text-justify;
+    @apply text-lg max-sm:text-base leading-[1.6] text-justify;
   }
 }
 
