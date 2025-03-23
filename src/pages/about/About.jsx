@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div className='p-20 space-y-4 max-sm:text-justify max-sm:p-15'>
-      <h1 className='text-2xl max-sm:text-center'>About Us</h1>
-      <p className='text-lg max-sm:text-xs'>
+    <div className='p-15 space-y-4'>
+      <h1>About Us</h1>
+      <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae harum odio
         aspernatur? Sed totam ipsa labore quidem doloremque numquam, quos quas
         beatae modi possimus at, recusandae unde doloribus animi aliquam

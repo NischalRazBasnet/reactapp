@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div className='space-y-4 max-sm:text-justify max-sm:p-15'>
-      <h1 className='text-2xl  max-sm:text-center'>Contact Us</h1>
-      <p className='text-lg max-sm:text-xs'>
+    <div className='p-15 space-y-4'>
+      <h1>Contact Us</h1>
+      <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae harum odio
         aspernatur? Sed totam ipsa labore quidem doloremque numquam, quos quas
         beatae modi possimus at, recusandae unde doloribus animi aliquam
@@ -24,10 +24,7 @@ export default function Contact() {
         vel ea soluta harum adipisci natus. Culpa ad laborum doloremque atque
         aspernatur tempora voluptatem quasi amet porro, sapiente labore harum
         assumenda doloribus eos iure, facilis praesentium et tenetur recusandae
-        suscipit unde sit. Illo recusandae magni perspiciatis velit sint. Velit,
-        laudantium? Doloribus unde id natus eos nihil eaque eius pariatur
-        veniam! Omnis, numquam, fugit sed consectetur provident magni
-        dignissimos quas reiciendis excepturi quos quo.
+        suscipit unde sit.
       </p>
     </div>
   );

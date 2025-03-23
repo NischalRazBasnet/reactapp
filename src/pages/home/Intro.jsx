@@ -6,7 +6,7 @@ export default function Intro() {
     <div>
       <div
         id='hero-section'
-        className='grid grid-cols-2 items-center max-sm:grid-cols-1 place-items-center'
+        className='grid grid-cols-2 items-center max-sm:grid-cols-1 max-sm:place-items-center'
       >
         <div>
           <DotLottieReact
