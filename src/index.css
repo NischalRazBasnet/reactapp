@@ -1,14 +1,10 @@
 @import 'tailwindcss';
 
 @theme {
-  /* --color-*: initial; */
   --color-primary: red;
   --color-buttonColor: green;
 
   --text-headLarge: 50px;
-  /* --text-xl: 50px; */
-
-  /* --breakpoint-sm: 500px; */
 
   --animate-myAni: ani 2s ease-in infinite;
 
@@ -29,14 +25,20 @@
 /* base layer , component layer utitlities */
 
 @layer base {
+  h1 {
+    @apply text-4xl font-bold text-center max-sm:text-3xl;
+  }
   h2 {
-    @apply text-2xl font-bold;
+    @apply text-2xl font-semibold max-sm:text-xl;
+  }
+  p {
+    @apply text-lg max-sm:text-xs text-justify;
   }
 }
 
 @layer components {
   .icons {
-    @apply h-[150px] w-[150px] hover:text-rose-500 hover:scale-110 transition-all;
+    @apply h-[150px] w-[150px] hover:text-rose-500 hover:scale-110 transition-all max-sm:size-[100px];
   }
 }
 

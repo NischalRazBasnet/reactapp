@@ -11,10 +11,10 @@ import {
 export default function Techno() {
   return (
     <div id='tech-section'>
-      <h1 className='text-center text-4xl font-bold'>Technologies I use</h1>
+      <h1>Technologies I use</h1>
       <div
         id='showcase'
-        className='grid grid-cols-(--my-grid) gap-10 my-9 place-items-center'
+        className='grid grid-cols-(--my-grid) gap-10 my-9 px-2 place-items-center'
       >
         <DiHtml5 class='icons' />
         <DiCss3 class='icons' />
