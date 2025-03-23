@@ -5,16 +5,18 @@ import Svg from '../../components/Svg';
 export default function Intro() {
   return (
     <div>
-      <div id='hero-section' className='grid grid-cols-2 items-center'>
-        <div>
+      <div
+        id='hero-section'
+        className='grid grid-cols-2 items-center max-sm:grid-cols-1'
+      >
+        <div className='max-sm:340px'>
           <DotLottieReact
             src='https://lottie.host/3730583f-6a2f-4618-a462-ae15fa86fdff/nIi9VTpD1F.lottie'
             loop
             autoplay
-            // height={'400px'}
           />
         </div>
-        <div className='space-y-3 px-15'>
+        <div className='space-y-3 px-15 max-sm:text-center'>
           <h1 className=' text-4xl font-bold'>Hi, I am John</h1>
           <p className='text-red-400'>Some Dev, Freelancer, Rounder</p>
           <p className='text-justify'>

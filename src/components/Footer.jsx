@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className='relative w-full h-[250px] mt-10'>
+    <footer className='relative w-full h-[250px] mt-10 max-sm:h-[200px]'>
       {/* using svg */}
       {/* <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'>
         <path
@@ -19,7 +19,7 @@ export default function Footer() {
         className='absolute top-0 left-0 h-full w-full bg-black'
         style={{ clipPath: 'polygon(0% 50%, 100% 0%, 100% 100%, 0% 100%)' }}
       ></div>
-      <div className='absolute text-white inset-x-0 bottom-0 top-[50%] text-center flex flex-col items-center justify-center'>
+      <div className='absolute text-white inset-x-0 bottom-0 top-[50%] text-center flex flex-col items-center justify-center max-sm:bottom-20'>
         <h1 className='text-xl font-bold'>Developed By</h1>
         <h1 className='text-lg'>Some One Anonymous</h1>
       </div>
